@@ -1,0 +1,34 @@
+import React from 'react'
+import { Route, Routes } from 'react-router'
+import HomeScreen from './Screens/HomeScreen'
+import LoginScreen from './Screens/LoginScreen'
+import RegisterScreen from './Screens/RegisterScreen'
+
+
+
+export default function App() {
+  return (
+    <Routes>
+         <Route 
+           path='/' 
+           element={<HomeScreen/>}
+          />
+
+         <Route 
+            path='/home' 
+            element={<HomeScreen/>}
+          />
+        <Route 
+          path='/login' 
+             elemnt= {<LoginScreen/>}
+             />
+        <Route 
+             path='/register'  
+             elemnt= {<RegisterScreen/>}
+             />
+           
+
+    </Routes>
+  )
+}
+
