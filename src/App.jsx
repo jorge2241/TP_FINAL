@@ -6,9 +6,13 @@ import RegisterScreen from './Screens/RegisterScreen'
 import NotFoundScreen from './Screens/NotFoundScreen'
 
 
+
+
+
 export default function App() {
   return (
-    <Routes>
+   
+            <Routes>
          <Route 
            path='/' 
            element={<HomeScreen/>}
@@ -25,13 +29,11 @@ export default function App() {
              path='/register'  
              elemnt= {<RegisterScreen/>}
              />
-         <Route 
-             path='/*'  
-             elemnt= {<NotFoundScreen/>}
-          />
+        
            
 
     </Routes>
+
   )
 }
 
