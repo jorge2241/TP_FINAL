@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router'
 import HomeScreen from './Screens/HomeScreen'
 import LoginScreen from './Screens/LoginScreen'
 import RegisterScreen from './Screens/RegisterScreen'
-
+import NotFoundScreen from './Screens/NotFoundScreen'
 
 
 export default function App() {
@@ -13,7 +13,6 @@ export default function App() {
            path='/' 
            element={<HomeScreen/>}
           />
-
          <Route 
             path='/home' 
             element={<HomeScreen/>}
@@ -26,6 +25,10 @@ export default function App() {
              path='/register'  
              elemnt= {<RegisterScreen/>}
              />
+         <Route 
+             path='/*'  
+             elemnt= {<NotFoundScreen/>}
+          />
            
 
     </Routes>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
-import Navbar from '../Components/Navbar/Navbar'
+import Navbar from '../assets/Components/Navbar/Navbar'
 export default function NotFoundScreen() {
   return (
     <div>
