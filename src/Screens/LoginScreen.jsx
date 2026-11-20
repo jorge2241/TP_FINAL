@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import Navbar from '../Components/Navbar/Navbar'
-import { ContactContext } from './Context/ContactContext'
+import { ContactContext } from '../Context/ContactContext'
 
 export function LoginScreen() {
 
