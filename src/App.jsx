@@ -23,12 +23,16 @@ export default function App() {
           />
         <Route 
           path='/login' 
-             elemnt= {<LoginScreen/>}
+             element= {<LoginScreen/>}
              />
         <Route 
              path='/register'  
-             elemnt= {<RegisterScreen/>}
+             element= {<RegisterScreen/>}
              />
+              <Route 
+             path='/*'  
+             element= {<NotFoundScreen/>}
+          />
         
            
 
