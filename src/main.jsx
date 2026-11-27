@@ -20,5 +20,9 @@ createRoot(document.getElementById('root')).render(
 )
 
 /*   
-            para poder usar el enrutador hay que encerrar al  App component 
+   para poder usar el enrutador hay que encerrar al  App component 
+*/
+/* 
+ContactContextProvider tiene un alcance global en toda el App,
+tanto en el App como en sus hijos
 */

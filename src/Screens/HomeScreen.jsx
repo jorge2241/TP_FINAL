@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from '../assets/Components/Navbar/Navbar'
+import Navbar from '../Components/Navbar/Navbar'
+import Sidebar from '../Components/Sidebar/Sidebar'
 
 export default function HomeScreen() {
   return (
-    <div>HomeScreen
-      <Navbar/>
-        <h1> Home </h1>
+    <div>
+        <Sidebar/>
+
     </div>
   )
 }
